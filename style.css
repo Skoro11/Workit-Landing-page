@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS*/
+
+.navbar {
+    font-size: 20px;
+    height: auto;
+    width: 95%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.navbar span {
+    float: right;
+    color: white;
+    padding: 5%;
+}
+
+
+
+/*Menu section*/
+
+.navbar-section {
+    text-align: center;
+    color: white;
+}
+
+.navbar-section button {
+    background-color: #45fea1;
+    color: #24053e;
+    width: 20%;
+    height: 40%;
+    margin: 3%;
+    font-size: 1.2em;
+    border-radius: 7%;
+    ;
+}
+
+.navbar-section button:hover {
+    color: #45fea1;
+    background-color: transparent;
+    border-color: #45fea1;
+}
+
+/*Underlined text*/
+em,
+.navbar a {
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: #45fea1;
+    text-underline-offset: 7px;
+}
+
+.navbar a:hover {
+    color: #45fea1;
+}
+
+/*Images*/
+.image-one {
+    position: absolute;
+    top: 15%;
+    right: 70%;
+}
+
+.image-two {
+    position: absolute;
+    top: 40%;
+    left: 85%
+}
+
+.phone-image img {
+    position: absolute;
+    width: 40%;
+    top: 70%;
+    right: 30%;
+}
+
+/*Background */
+
+.home-page {
+    z-index: 0;
+    display: grid;
+    grid-template-rows: 14vh max-content 18vh;
+}
+
+.home-page::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 83vh;
+
+    background-color: #24053e;
+    border-bottom-left-radius: 100% 75px;
+    border-bottom-right-radius: 100% 75px;
+}
