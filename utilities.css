@@ -1,0 +1,72 @@
+:root {
+    /*Colors*/
+
+    --primary-color-purple: #24053E;
+    --primary-color-grey: #584D62;
+    --primary-color-green: #44FFA1;
+    --primary-color-ghost-white: #FCF8FF;
+    --primary-color-white: #FFFFFF;
+
+    /*Fonts*/
+
+    --font-family-francues: 'Fraunces', serif;
+    --font-family-manrope: 'Manrope', sans-serif;
+
+    --font-size-normal: 1rem;
+    --font-size-body: 1.125rem;
+    --font-size-S: 2rem;
+    --font-size-M: 3.5rem;
+    --font-size-L: 5rem;
+
+    --mobile-width-desktop: 767px;
+    --mobile-width-tablet: 514px;
+    --mobile-width-mobile: 320px;
+}
+
+/*Headings*/
+.heading-L,
+.heading-M,
+.heading-S {
+    font-family: var(--font-family-francues);
+}
+
+.heading-L {
+    font-size: var(--font-size-L);
+    line-height: 80px;
+}
+
+.heading-M {
+    font-size: var(--font-size-M);
+    line-height: 64px;
+}
+
+.heading-S {
+    font-size: var(--font-size-S);
+    line-height: 40px;
+}
+
+/* Fonts*/
+
+.font-normal {
+    font-size: var(--font-size-normal);
+}
+
+.font-body {
+    font-size: var(--font-size-body);
+}
+
+.font-s {
+    font-size: var(--font-size-S);
+}
+
+.font-m {
+    font-size: var(--font-size-M);
+}
+
+.font-l {
+    font-size: var(--font-size-L);
+}
+
+.phone-image {
+    width: var(--mobile-width-desktop);
+}
